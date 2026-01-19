@@ -1,0 +1,30 @@
+body {
+  background-color: #f5f7fb;
+}
+
+.app-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+.task-card {
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-3px);
+}
+
+.btn-soft-warning {
+  background-color: #fff3cd;
+  border: none;
+  color: #856404;
+}
+
+.btn-soft-danger {
+  background-color: #fdecea;
+  border: none;
+  color: #842029;
+}
